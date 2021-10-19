@@ -1,0 +1,24 @@
+* {
+    margin: 0 ;
+    padding: 0;
+}
+body {
+    background-image: url('background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+div {
+    margin: 0 100px;
+}
+.mask {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+}
